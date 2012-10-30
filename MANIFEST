@@ -1,4 +1,5 @@
 .project
+doc/README
 etc/initialdata
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
