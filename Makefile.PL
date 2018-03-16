@@ -1,9 +1,10 @@
-use strict;
 use inc::Module::Install;
 
-RTx('RT-Action-ChangeOwner');
-author('Marius Hein <marius.hein@netways.de>');
-version('1.0');
-license('gpl');
+RTx     'RT-Action-ChangeOwner';
+license 'gpl_2';
+repository 'https://github.com/NETWAYS/rt-extension-changeowner';
+readme_from 'lib/RT/Action/ChangeOwner.pm';
+
+requires_rt '4.2';
 
 &WriteAll;
