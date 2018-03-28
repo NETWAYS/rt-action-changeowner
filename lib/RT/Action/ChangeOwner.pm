@@ -106,7 +106,7 @@ NETWAYS GmbH <lt>support@netways.de<gt>
 
 =head1 BUGS
 
-All bugs should be reported on L<GitHub|https://github.com/NETWAYS/rt-extension-changeowner>.
+All bugs should be reported on L<GitHub|https://github.com/NETWAYS/rt-action-changeowner>.
 
 =head1 LICENSE AND COPYRIGHT
 

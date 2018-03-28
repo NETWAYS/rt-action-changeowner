@@ -28,7 +28,7 @@ This software is Copyright (c) 2018 by NETWAYS GmbH [support@netways.de](mailto:
 
 ## Support
 
-For bugs and feature requests please head over to our [issue tracker](https://github.com/NETWAYS/rt-extension-changeowner/issues).
+For bugs and feature requests please head over to our [issue tracker](https://github.com/NETWAYS/rt-action-changeowner/issues).
 You may also send us an email to [support@netways.de](mailto:support@netways.de) for general questions or to get technical support.
 
 ## Requirements
@@ -42,12 +42,12 @@ Extract this extension to a temporary location.
 Git clone:
 
     cd /usr/local/src
-    git clone https://github.com/NETWAYS/rt-extension-changeowner
+    git clone https://github.com/NETWAYS/rt-action-changeowner
 
 Tarball download:
 
     cd /usr/local/src
-    wget https://github.com/NETWAYS/rt-extension-changeowner/archive/master.zip
+    wget https://github.com/NETWAYS/rt-action-changeowner/archive/master.zip
     unzip master.zip
 
 Navigate into the source directory and install the extension. (May need root permissions.)
