@@ -5,6 +5,6 @@ license 'gpl_2';
 repository 'https://github.com/NETWAYS/rt-action-changeowner';
 readme_from 'lib/RT/Action/ChangeOwner.pm';
 
-requires_rt '4.2';
+requires_rt '6.0.0';
 
 &WriteAll;

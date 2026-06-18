@@ -9,7 +9,7 @@ use subs qw(
     Commit
 );
 
-our $VERSION='2.0.1';
+our $VERSION='3.0.0';
 
 sub Prepare {
     my $self = shift;
@@ -72,7 +72,7 @@ to re-take or assist in case of problems.
 
 =head1 RT VERSION
 
-Works with RT 4.2
+Works with RT 6.0.0
 
 =head1 INSTALLATION
 
@@ -86,7 +86,7 @@ Works with RT 4.2
 
 May need root permissions
 
-=item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
+=item Edit your F</opt/rt/etc/RT_SiteConfig.pm>
 
 Add this line:
 
@@ -94,7 +94,7 @@ Add this line:
 
 =item Clear your mason cache
 
-    rm -rf /opt/rt4/var/mason_data/obj
+    rm -rf /opt/rt/var/mason_data/obj
 
 =item Restart your webserver
 
